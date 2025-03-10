@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 
+// fuunction
 function App() {
   useEffect(() => {
     const btn = document.querySelector(".talk");
