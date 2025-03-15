@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 
-// fuunction
+// fuunction to convert text to speech
 function App() {
   useEffect(() => {
     const btn = document.querySelector(".talk");
