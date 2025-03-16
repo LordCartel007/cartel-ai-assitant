@@ -47,7 +47,7 @@ function App() {
       content.textContent = "Listening....";
       recognition.start();
     });
-
+    // function for commands
     function takeCommand(message) {
       if (
         message.includes("cartel") ||
