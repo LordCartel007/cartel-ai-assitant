@@ -131,10 +131,12 @@ function App() {
           <h1>Cartel</h1>
           <p>I'm a Virtual Assistant Cartel, How may I help you?</p>
         </div>
+        {/* VOICE INPUT */}
         <div className="input">
           <button className="talk">
             <i className="fas fa-microphone-alt"></i>
           </button>
+
           <h1 className="content">Click here to speak</h1>
         </div>
       </section>
